@@ -21,5 +21,6 @@ def find_intersection(lists):
         return []
 
     restaurant_sets = [set(stream) for stream in lists]
-    intersection = reduce(lambda set1, set2: set1.intersection(set2), restaurant_sets)
+    intersection = reduce(
+        lambda set1, set2: set1.intersection(set2), restaurant_sets)
     return list(intersection)
