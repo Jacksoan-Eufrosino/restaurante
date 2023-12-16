@@ -37,7 +37,7 @@ class Service:
 
 if __name__ == '__main__':
     service1 = Service(repositorio_restaurante)
-    restaurante1 = Restaurant('Deli', 2, 10, 100, 'I') #Nome - Classificação - Distância - Preço - Cozinha
+    restaurante1 = Restaurant('Deli', 2, 10, None, 'Amer') #Nome - Classificação - Distância - Preço - Cozinha
 
     for r in service1.busca(restaurante1):
         print(r)
