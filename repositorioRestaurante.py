@@ -1,4 +1,4 @@
-
+import estrutura_triNode
 import leitura_csv
 from restaurant import *
 
@@ -10,14 +10,18 @@ class RestaurantRepository:
         return self.restaurants
 
     def find_by_cuisine(self, cuisine_id):
-        return list(filter(lambda r: r.cuisine_id == cuisine_id, self.restaurants))
+        matching_restaurants = []
+        for restaurant in self.restaurants:
+            if restaurant.cuisine_id == cuisine_id:
+                matching_restaurants.append(restaurant)
+        return matching_restaurants
 
     def __import_restaurants(self):
         rest_dics = leitura_csv.read_csv('restaurants.csv')
         self.restaurants = [Restaurant(**rest) for rest in rest_dics]
 
 
-class CuisineReposiroty:
+class CuisineRepository:
     def __init__(self):
         self.__import_cuisines()
 
@@ -28,3 +32,5 @@ class CuisineReposiroty:
         cuisine_dicts = leitura_csv.read_csv('cuisines.csv')
         self.cuisines = [Cuisine(**cuisine) for cuisine in cuisine_dicts]
 
+repositorio_restaurante = RestaurantRepository()
+repositorio_cozinha = CuisineRepository()
