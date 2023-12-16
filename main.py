@@ -28,8 +28,9 @@ class Service:
         return leitura_csv.find_intersection(results)
 
 if __name__ == '__main__':
+    print('la vamos nos')
     service1 = Service(RestaurantRepository)
-    restaurante1 = Restaurant(None, 5, 7, 10, 0) #Nome - Classificação - Distância - Preço - Cozinha
+    restaurante1 = Restaurant("Ch", 4, None, None, None) #Nome - Classificação - Distância - Preço - Cozinha
                                                     #Falta cuisine
     for r in service1.busca(restaurante1):
         print(r)

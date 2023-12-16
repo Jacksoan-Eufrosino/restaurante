@@ -38,6 +38,7 @@ class PartialStringInvertedIndex:
         self.indice.inserir(word, carga)
 
     def buscar(self, word):
+        word = word.strip().lower()
         return self.indice.buscar(word)
 
 valor = NumberInvertedIndex()

@@ -1,4 +1,4 @@
-import estrutura_triNode
+
 import leitura_csv
 from restaurant import *
 
@@ -27,3 +27,4 @@ class CuisineReposiroty:
     def __import_cuisines(self):
         cuisine_dicts = leitura_csv.read_csv('cuisines.csv')
         self.cuisines = [Cuisine(**cuisine) for cuisine in cuisine_dicts]
+
