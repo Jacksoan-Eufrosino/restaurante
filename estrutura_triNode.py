@@ -1,5 +1,3 @@
-from repositorioRestaurante import RestaurantRepository
-
 class TrieNode:
     def __init__(self):
         self.children = {}
@@ -25,8 +23,3 @@ class PrefixTrie:
                 return node.data
             node = node.children[char]
         return node.data
-
-# nome = PrefixTrie()
-# rest = RestaurantRepository()
-# find = rest.find_all()
-# nome.inserir('word',rest)
