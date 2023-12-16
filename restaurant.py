@@ -3,6 +3,7 @@ class Cuisine:
         self.id = id
         self.name = name
 
+
 class Restaurant:
     def __init__(self, name, customer_rating, distance, price, cuisine_id):
         self.name = name
