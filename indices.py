@@ -30,11 +30,9 @@ class NumberInvertedIndex:
 class PartialStringInvertedIndex:
     def __init__(self):
         self.indice = PrefixTrie()
-        # importar modulo que possui essa classe
 
     def adicionar(self, word, carga):
-        word = word.strip().lower() #translate('', '', '\t\n\r\f\v, !@#$%^&*(')
-
+        word = word.strip().lower()
         self.indice.inserir(word, carga)
 
     def buscar(self, word):
@@ -47,12 +45,11 @@ distancia = NumberInvertedIndex()
 restaurante = PartialStringInvertedIndex()
 cuisine_indice = PartialStringInvertedIndex()
 
-for restaurant in RestaurantRepository().find_all():
+for restaurant in repositorio_restaurante.find_all():
     valor.adicionar(int(restaurant.price), restaurant)
     rating.adicionar(int(restaurant.customer_rating), restaurant)
     distancia.adicionar(int(restaurant.distance), restaurant)
     restaurante.adicionar(restaurant.name, restaurant)
 
-for cuisine in CuisineReposiroty().find_all():
+for cuisine in repositorio_cozinha.find_all():
     cuisine_indice.adicionar(cuisine.name, cuisine)
-
