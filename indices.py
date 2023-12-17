@@ -23,10 +23,6 @@ class NumberInvertedIndex:
         result = [item for sublist in from_index for item in sublist]
         return result
 
-    def get_item(self, chave):
-        return self.indice[chave]
-
-
 class PartialStringInvertedIndex:
     def __init__(self):
         self.indice = PrefixTrie()
