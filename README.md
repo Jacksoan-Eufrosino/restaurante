@@ -7,4 +7,8 @@ Para o funcionamento do projeto, foi necessário a criação de alguns arquivos 
 -> indices.py
 -> leitura_csv.py
 -> repositorioRestaurante.py
--> 
+-> restaurant.py
+
+# Execução
+
+O programa contém um menu que irá solicitar cada parâmetro 
