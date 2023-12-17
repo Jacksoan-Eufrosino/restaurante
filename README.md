@@ -14,7 +14,7 @@ Contém duas estruturas com a finalidade de adicionar e realizar buscas. A prime
 
 ### <mark>leitura_csv.py</mark>
 
-
+Estrutura para ler e armazenar os elementos dos arquivos csv.
 
 ### <mark>repositorioRestaurante.py</mark>
 
