@@ -122,7 +122,7 @@ def main():
         bubble_sort_rating(resultado)
         bubble_sort_price(resultado)
         if len(resultado) > 5:
-            resultado = resultado[0:7]
+            resultado = resultado[0:5]
         
         if len(resultado) < 1 :
             print('Sem resultados')
