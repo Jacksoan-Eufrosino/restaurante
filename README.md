@@ -27,3 +27,9 @@ Possui uma classe que contém os parâmetros __name, customer_rating, distance, 
 # Execução
 
 O programa contém um menu de escolha que irá solicitar um parâmetro por vez, na ordem do NOME - CLASSIFICAÇÃO, DISTÂNCIA, PREÇO e TIPO DA COZINHA. Para ignorar um dos parâmetros basta digitar -1, e para cancelar a busca basta digitar 0 na primeira requisição do nome do restaurante. Ao terminar a busca, será solicitado se o usuário deseja realizar outra busca ou se deseja encerrar o programa.
+
+# Contribuintes
+**Antony César - 20231380013**
+**Arthur de Macêdo - 20231380021**
+**Gabriel Andrade - 20231380027**
+**Jacksoan Eufrosino - 20231380018**
