@@ -30,6 +30,9 @@ O programa contém um menu de escolha que irá solicitar um parâmetro por vez, 
 
 # Contribuintes
 **Antony César - 20231380013**
+
 **Arthur de Macêdo - 20231380021**
+
 **Gabriel Andrade - 20231380027**
+
 **Jacksoan Eufrosino - 20231380018**
