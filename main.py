@@ -41,7 +41,7 @@ def main():
         print("\nBem vindo ao Busca Food, seu buscador de Restaurantes!")
         print("\nMENU DE ESCOLHA:")
 
-        name = (input("\nNome do Restaurante (Digite 1 para passar ou 0 para sair): "))
+        name = (input("\nNome do Restaurante (Digite -1 para passar ou 0 para sair): "))
         if name == '0':
             print('Volte sempre!')
             break
