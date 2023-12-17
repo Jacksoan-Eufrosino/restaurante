@@ -16,4 +16,4 @@ Para o funcionamento do projeto, foi necessário a criação de alguns arquivos 
 
 # Execução
 
-O programa contém um menu que irá solicitar cada parâmetro 
+O programa contém um menu de escolha que irá solicitar um parâmetro por vez, na ordem do NOME - CLASSIFICAÇÃO, DISTÂNCIA, PREÇO e TIPO DA COZINHA. Para ignorar um dos parâmetros basta digitar -1.
