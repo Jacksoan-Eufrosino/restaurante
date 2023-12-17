@@ -4,7 +4,7 @@ O projeto Restaurante é uma aplicação que visa gerenciar e organizar informa�
 # Implementação
 Para o funcionamento do projeto, foi necessário a criação de alguns arquivos citados abaixo:
 
--> estrutura_triNode.py
+**-> estrutura_triNode.py**
 
 Possui uma estrutura de árvore com métodos que tem a finalidade de buscar um elemento na árvore e outro método para adicionar um elemento na árvore.
 
