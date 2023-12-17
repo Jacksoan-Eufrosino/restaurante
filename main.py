@@ -20,7 +20,6 @@ class Service:
                     encontrados.append(rest)
             resultados.append(encontrados)
 
-
         if query.customer_rating:
             resultados.append(rating.maior_igual(int(query.customer_rating)))
 
