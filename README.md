@@ -4,21 +4,21 @@ O projeto Restaurante é uma aplicação que visa gerenciar e organizar informa�
 # Implementação
 Para o funcionamento do projeto, foi necessário a criação de alguns arquivos citados abaixo:
 
-###estrutura_triNode.py
+### estrutura_triNode.py
 
 Possui uma estrutura de árvore com métodos que tem a finalidade de buscar um elemento na árvore e outro método para adicionar um elemento na árvore.
 
-###indices.py
+### indices.py
 
 Contém duas estruturas com a finalidade de adicionar e realizar buscas. A primeira classe NumberInvertedIndex é utilizada para adicionar e buscar elementos do tipo numérico, podendo escolher se deseja realizar a busca pelo elemento maior ou igual que o valor passado como parâmetro ou menor ou igual. Já a segunda classe PartialStringInvertedIndex é utilizada apenas para adicionar elementos do tipo str, realizando também buscas utilizando uma estrutura de árvore.
 
- ###leitura_csv.py
+### leitura_csv.py
 
-###repositorioRestaurante.py
+### repositorioRestaurante.py
 
 Organiza todos os restaurantes e cozinhas em diferentes classes, e retorna cada um deles ao serem instanciados.
 
-###restaurant.py
+### restaurant.py
 
 # Execução
 
