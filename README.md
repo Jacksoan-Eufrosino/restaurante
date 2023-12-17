@@ -16,4 +16,4 @@ Para o funcionamento do projeto, foi necessário a criação de alguns arquivos 
 
 # Execução
 
-O programa contém um menu de escolha que irá solicitar um parâmetro por vez, na ordem do NOME - CLASSIFICAÇÃO, DISTÂNCIA, PREÇO e TIPO DA COZINHA. Para ignorar um dos parâmetros basta digitar -1.
+O programa contém um menu de escolha que irá solicitar um parâmetro por vez, na ordem do NOME - CLASSIFICAÇÃO, DISTÂNCIA, PREÇO e TIPO DA COZINHA. Para ignorar um dos parâmetros basta digitar -1, e para cancelar a busca basta digitar 0 na primeira requisição do nome do restaurante.
