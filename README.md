@@ -14,11 +14,15 @@ Contém duas estruturas com a finalidade de adicionar e realizar buscas. A prime
 
 ### leitura_csv.py
 
+
+
 ### repositorioRestaurante.py
 
 Organiza todos os restaurantes e cozinhas em diferentes classes, e retorna cada um deles ao serem instanciados.
 
 ### restaurant.py
+
+Possui uma classe que contém os parâmetros __name, customer_rating, distance, price, cuisine_id.__
 
 # Execução
 
